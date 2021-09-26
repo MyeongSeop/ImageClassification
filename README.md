@@ -5,6 +5,7 @@
 * Accuracy : 95.842%
 * Kaggle leaderBoard : https://www.kaggle.com/c/dnn2021ssl/leaderboard
 
+
 ### Data
 
 - Train : 5000 (Labeled), 35551(Unlabeled)
@@ -15,6 +16,7 @@
 - Examples
 
   ![data](https://user-images.githubusercontent.com/28529183/134809925-c00e4486-eef3-4d83-8980-4cd68f489369.JPG)
+
 
 ### Training (ResNet 50)
 
@@ -30,6 +32,7 @@
 - Loss : Cross Entropy Loss
 - Accuracy(Test) : 95.842%
 
+
 ### Pseudo Labeling
 
 - Alpha Weight
@@ -37,6 +40,7 @@
   weight = ((step - 100) / (700 - 100)) * 3
   
   (step : initial value -> 100, increases 1 for every 50 batches)
+
 
 ### Other Models.....
 
