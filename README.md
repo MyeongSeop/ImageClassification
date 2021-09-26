@@ -1,6 +1,6 @@
 # Image Classification
+Semi-Supervised Learning for Image Classification
 
-* Semi-Supervised Learning for Image Classification
 * Used pytorch & ResNet-50(pre-trained model from pytorch)
 * Accuracy : 95.842%
 * Kaggle leaderBoard : https://www.kaggle.com/c/dnn2021ssl/leaderboard
